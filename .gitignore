@@ -1,0 +1,5 @@
+# Ignore all compiled files in cpp_basics
+cpp_basics/*.exe
+cpp_basics/*.out
+cpp_basics/*    # This line will ignore all files with no extension
+!cpp_basics/*.cpp  # Keep source files
